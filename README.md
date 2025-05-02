@@ -1,33 +1,30 @@
-# Java Object Oriented Programming - The Best Damn Review In The World
+# Java‑OOP‑Review
 
-## Table of Contents
+A hands‑on, code‑first guide to mastering core Object‑Oriented Programming (OOP) concepts in Java.  
+The repo contains:
 
-1.  [Trace and Evaluate Assignment Sequences](#1-trace-and-evaluate-assignment-sequences)
-2.  [Identify Valid Java Identifiers](#2-identify-valid-java-identifiers)
-3.  [Evaluate Java Expressions](#3-evaluate-java-expressions)
-4.  [Identify Java Primitive Types by Name, Literal, and Expression](#4-identify-java-primitive-types-by-name-literal-and-expression)
-5.  [Choose the Best Java Data Type](#5-choose-the-best-java-data-type)
-6.  [Declare a Variable of a Specified Primitive Type](#6-declare-a-variable-of-a-specified-primitive-type)
-7.  [Demonstrate Comprehension of Identifier Semantics](#7-demonstrate-comprehension-of-identifier-semantics)
-8.  [Trace and Evaluate Code with Multiple Methods](#8-trace-and-evaluate-code-with-multiple-methods)
-9.  [Trace Code with Decisions and Loops](#9-trace-code-with-decisions-and-loops)
-10. [Declare and Instantiate Arrays (Including 2-D Arrays)](#10-declare-and-instantiate-arrays-including-2-d-arrays)
-11. [Manipulate Arrays with Indexes and Loops](#11-manipulate-arrays-with-indexes-and-loops)
-12. [Trace Code with Arrays and Loops](#12-trace-code-with-arrays-and-loops)
-13. [Declare and Instantiate Object Variables and Objects](#13-declare-and-instantiate-object-variables-and-objects)
-14. [Differences Between Value Types and Reference Types](#14-differences-between-value-types-and-reference-types)
-15. [Differentiate Common Orders of Runtime Complexity](#15-differentiate-common-orders-of-runtime-complexity)
-16. [Identify Common Algorithms by Their Runtime Complexity](#16-identify-common-algorithms-by-their-runtime-complexity)
-17. [Read and Interpret UML Class Diagrams](#17-read-and-interpret-uml-class-diagrams)
-18. [Trace and Evaluate Code with Reference Types and Classes](#18-trace-and-evaluate-code-with-reference-types-and-classes)
-19. [Encapsulation, Data Hiding, Inheritance, and Polymorphism](#19-encapsulation-data-hiding-inheritance-and-polymorphism)
-20. [Stacks and Queues (Common Operations)](#20-stacks-and-queues-common-operations)
-21. [Linked Lists and Linked List Operations](#21-linked-lists-and-linked-list-operations)
-22. [Identify Equivalent Iterative and Recursive Algorithms](#22-identify-equivalent-iterative-and-recursive-algorithms)
-23. [Functional Understanding of Quicksort and Merge Sort](#23-functional-understanding-of-quicksort-and-merge-sort)
-24. [Functional Understanding of Binary Search Algorithm](#24-functional-understanding-of-binary-search-algorithm)
-25. [Binary Trees vs Binary Search Trees (BST) and Tracing Code with Trees](#25-binary-trees-vs-binary-search-trees-bst-and-tracing-code-with-trees)
-26. [The App](#the-app)
+| File        | Purpose                                                             |
+|-------------|---------------------------------------------------------------------|
+| `Main.java` | Interactive console app that demonstrates and quizzes key OOP ideas |
+| `Main.md`   | Reference sheet on Java syntax, patterns, and common pitfalls       |
 
----
+## Why this project exists
+Learning Java is best done by writing and running code. `Main.java` walks you through encapsulation, inheritance, polymorphism, abstraction, and more, while `Main.md` calls out “gotchas” that trip up new devs.
 
+## Prerequisites
+* JDK 17 or later  
+* Visual Studio Code (or any IDE that supports Java)
+
+## Quick start
+```bash
+# 1 Clone the repo
+git clone https://github.com/lalomorales22/Java-OOP-review.git
+cd Java-OOP-review
+
+# 2 Open in VS Code
+code .
+
+# 3 Run the app
+# Either hit the Run button, or from the terminal:
+javac Main.java
+java Main
