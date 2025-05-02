@@ -31,14 +31,3 @@
 
 ---
 
-## 1. Trace and Evaluate Assignment Sequences
-
-Understanding how assignments change variable values step-by-step is crucial. In Java, the single equals sign `=` is the assignment operator (not an equality check). To **trace an assignment sequence**, follow the code line by line, updating each variable’s value as you go. For example:
-
-```java
-int x = 17;
-int y = 5;
-int a = y;  // a gets 5, x is 17, y is 5
-y = x;      // y gets 17, x is 17, a is 5
-x = a;      // x gets 5, (the old y), y is 17
-System.out.println(x + ", " + y);  // outputs: 5, 17
